@@ -1,6 +1,6 @@
+import Stack from "@/components/carousel/Stack";
 import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/navbar/Navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between p-20">
         <Navbar />
         <Hero />
-        hey
+        <Stack />
       </main>
     </div>
   );
