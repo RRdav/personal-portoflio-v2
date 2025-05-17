@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Raleway } from "next/font/google";
+import { Raleway, Nunito } from "next/font/google";
 import "./globals.css";
 
 const ralewaySans = Raleway({
   variable: "--font-raleway",
+  subsets: ["latin"],
+});
+
+const nunitoSans = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
 });
 
@@ -20,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${ralewaySans.variable} antialiased`}
+        className={`${ralewaySans.variable} ${nunitoSans.variable} antialiased`}
       >
         {children}
       </body>
