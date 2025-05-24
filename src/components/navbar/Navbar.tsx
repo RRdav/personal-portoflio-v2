@@ -21,7 +21,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/RRdavid" target="_blank">
+                            <a href="https://github.com/RRdav" target="_blank">
                                 <GithubIcon className="text-purple hover:text-white transition-colors"/>
                             </a>
                         </li>
