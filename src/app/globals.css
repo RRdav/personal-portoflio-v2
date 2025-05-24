@@ -5,6 +5,7 @@
 }
 
 @theme inline {
+
   /* Fonts */
   --font-sans: var(--font-raleway);
   --font-secondary: var(--font-nunito);
@@ -47,4 +48,11 @@ body {
 /* Slick */
 .slick-disabled {
   display: none !important;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
 }
