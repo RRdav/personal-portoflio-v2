@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { EmblaOptionsType } from 'embla-carousel'
 import { DotButton, useDotButton } from './EmblaCarouselDotButton'
 import {
@@ -49,12 +49,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     onNextButtonClick
   } = usePrevNextButtons(emblaApi)
 
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {data.map((item, index) => (
-            <div className="embla__slide" key={index}>
+            <div className={`embla__slide ` + (index === selectedIndex ? "embla__slide__selected" : "")}  key={index}>
                 <div className="embla__slide__icon">
                     {item.icon}
                 </div>
@@ -68,8 +69,8 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 
       <div className="embla__controls">
         <div className="embla__buttons">
-          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+          <PrevButton onClick={() => {onPrevButtonClick(); }} disabled={prevBtnDisabled} />
+          <NextButton onClick={() => {onNextButtonClick(); }} disabled={nextBtnDisabled} />
         </div>
 
         <div className="embla__dots">

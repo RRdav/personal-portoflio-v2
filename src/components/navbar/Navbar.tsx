@@ -10,8 +10,8 @@ export default function Navbar() {
                 <div className="flex justify-between items-center p-3 space-x-12">
                     <ul className="flex space-x-8">
                         <li><a href="#" className="text-purple font-medium hover:text-white transition-colors">RR</a></li>
-                        <li><a href="#" className="text-purple font-medium hover:text-white transition-colors">education</a></li>
-                        <li><a href="#" className="text-purple font-medium hover:text-white transition-colors">experience</a></li>
+                        <li><a href="#" className="text-purple font-medium hover:text-white transition-colors">profile</a></li>
+                        <li><a href="#" className="text-purple font-medium hover:text-white transition-colors">portfolio</a></li>
                     </ul>
                         {/* socials */}
                     <ul className="flex space-x-6">
