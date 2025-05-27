@@ -1,6 +1,6 @@
 import * as React from "react"
 import { SVGProps } from "react"
-const Reacticon = (props: SVGProps<SVGSVGElement>) => (
+const ReactIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}>
     <title>{"file_type_reactts"}</title>
     <circle
@@ -31,4 +31,4 @@ const Reacticon = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 )
-export default Reacticon
+export default ReactIcon

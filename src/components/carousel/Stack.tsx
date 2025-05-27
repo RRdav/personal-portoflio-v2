@@ -10,7 +10,7 @@ import EmblaCarousel from './EmblaCarousel'
 import { EmblaOptionsType } from 'embla-carousel'
 
 
-const OPTIONS: EmblaOptionsType = {  slidesToScroll: 1, loop: true }
+const OPTIONS: EmblaOptionsType = {  slidesToScroll: 1,  }
 
 export default function Stack() {
 

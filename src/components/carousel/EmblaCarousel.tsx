@@ -8,7 +8,7 @@ import {
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 import JSicon from '../icons/js-icon'
-import Reacticon from '../icons/react-icon'
+import ReactIcon from '../icons/react-icon'
 import PHPicon from '../icons/php-icon'
 import NextJSicon from '../icons/next-icon'
 
@@ -18,11 +18,11 @@ type PropType = {
 
 const data = [
     {
-        icon: <JSicon />,
+        icon: <JSicon className=""/>,
         name: 'JavaScript',
     },
     {
-        icon: <Reacticon />,
+        icon: <ReactIcon />,
         name: 'React',
     },
     {

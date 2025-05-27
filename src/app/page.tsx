@@ -13,7 +13,7 @@ export default function Home() {
         <Stack />
         <Technologies />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
