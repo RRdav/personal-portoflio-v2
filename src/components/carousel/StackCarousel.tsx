@@ -11,6 +11,7 @@ import JSicon from '../icons/js-icon'
 import ReactIcon from '../icons/react-icon'
 import PHPicon from '../icons/php-icon'
 import NextJSicon from '../icons/next-icon'
+import Autoplay from 'embla-carousel-autoplay'
 
 type PropType = {
   options?: EmblaOptionsType
@@ -26,13 +27,13 @@ const data = [
         name: 'React',
     },
     {
+        icon: <NextJSicon />,
+        name: 'NextJS',
+    },
+    {
         icon: <PHPicon />,
         name: 'PHP',
     },
-    {
-        icon: <NextJSicon />,
-        name: 'NextJS',
-    }
 ]
 
 const EmblaCarousel: React.FC<PropType> = (props) => {

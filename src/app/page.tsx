@@ -6,14 +6,11 @@ import Technologies from "@/components/technologies/Technologies";
 
 export default function Home() {
   return (
-    <div className="font-[family-name:var(--font-raleway)]">
-      <main className="flex flex-col items-center container">
+      <main className="container flex flex-col items-center font-[family-name:var(--font-raleway)]">
         <Navbar />
         <Hero />
-        <Stack />
+        {/* <Stack /> */}
         <Technologies />
       </main>
-      {/* <Footer /> */}
-    </div>
   );
 }

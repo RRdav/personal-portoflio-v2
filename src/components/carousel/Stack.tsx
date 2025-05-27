@@ -10,12 +10,12 @@ import EmblaCarousel from './StackCarousel'
 import { EmblaOptionsType } from 'embla-carousel'
 
 
-const OPTIONS: EmblaOptionsType = {  slidesToScroll: 1, loop:true }
+const OPTIONS: EmblaOptionsType = {  slidesToScroll: 1, loop:true, }
 
 export default function Stack() {
 
     return(
-        <div className="flex items-center justify-center w-full gap-44 pt-20">
+        <div className="flex flex-col md:flex-row items-center md:justify-center w-full gap-20 md:gap-44 pt-20">
           <div className="drop-shadow-[0px_0px_60px_rgba(192,192,192,1)]">
             <p className="mt-4 text-2xl  text-gray">
               2 years of

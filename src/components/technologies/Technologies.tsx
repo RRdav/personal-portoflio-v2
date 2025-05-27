@@ -14,7 +14,7 @@ export default function Technologies() {
     return(
         <div className="pt-20 flex flex-col self-start w-full">
             <h2 className="text-light-gray font-light text-5xl">These are the technologies I've been using</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 pt-20 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 pt-10 gap-8">
                 <div className="text-light-gray border-2 rounded-2xl border-charcoal p-5">
                     <h3 className="font-bold">Front-end</h3>
                     <ul>
