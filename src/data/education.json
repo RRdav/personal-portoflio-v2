@@ -1,0 +1,16 @@
+[
+    {
+        "university" : "Queensland University of Technology",
+        "degree" : "Bachelor of Information Technology Major in Computer Science",
+        "startDate" : "February 2022",
+        "endDate" : "Present",
+        "description" : "Currently pursuing a Bachelor's degree in Information Technology with a major in Computer Science. The program covers various aspects of software development, data structures, algorithms, and system design."
+    },
+    {
+        "university" : "Macquarie University",
+        "degree" : "Diploma of Information Technology",
+        "startDate" : "February 2021",
+        "endDate" : "December 2021",
+        "description" : "Completed a Diploma in Information Technology, focusing on foundational IT skills, programming, and web development. This program provided a solid base for further studies in computer science."
+    }
+]

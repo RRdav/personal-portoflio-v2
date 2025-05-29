@@ -1,0 +1,18 @@
+[
+  {
+    "position": "PHP Web Developer",
+    "employment_type": "Full-time",
+    "years_in": "March 2023 - Present",
+    "job_location": "Bella Vista, Sydney",
+    "company_name": "Jala Design",
+    "job_description_responsibilities": "Developed and maintained responsive websites using HTML, CSS, JavaScript, PHP and WordPress. Focused on the backend development, custom functionalities and WooCommerce integration. Debugging and troubleshooting issues that arose during development and after deployment. Communicated with clients to resolve issues or create quotations for new features."
+  },
+  {
+    "position": "Freelance Junior Full Stack Developer",
+    "employment_type": "Part-time",
+    "years_in": "July 2021 - July 2024",
+    "job_location": "Sydney",
+    "company_name": "The Handsome Devs",
+    "job_description_responsibilities": "Joined elder sibling's founded personal agency as a junior full stack developer. Honed skills in React through projects powered by Next.js, headless CMS solutions such as WordPress and Strapi. Utilised libraries such as MUI and Chakra UI, but moved to Tailwind CSS for future side projects."
+  }
+]
