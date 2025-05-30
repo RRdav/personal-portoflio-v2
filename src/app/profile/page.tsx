@@ -3,6 +3,8 @@ import Image from "next/image";
 import Button from "@/components/buttons/Button";
 import Technologies from "@/components/technologies/Technologies";
 import Cards from "@/components/cards/Cards";
+import experience from "@/data/experience.json"
+import education from "@/data/education.json";
 
 export default function Projects() {
     return(
@@ -17,8 +19,8 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-        <Technologies hidden={true}/>
-        <Cards />
+        <Technologies />
+        <Cards experience={experience} education={education}/>
       </main>
     )
 }
