@@ -10,10 +10,10 @@ import Reacticon from "../icons/react-icon";
 import TailwindIcon from "../icons/tailwind-icon";
 import TypeScriptIcon from "../icons/typescript-icon";
 
-export default function Technologies() {
+export default function Technologies({hidden}: {hidden?: boolean}) {
     return(
-        <div className="pt-20 flex flex-col self-start w-full">
-            <h2 className="text-light-gray font-light text-5xl">These are the technologies I've been using</h2>
+        <div className="pt-10 flex flex-col self-start w-full">
+            <h2 className={`text-light-gray font-light text-2xl sm:text-4xl ${hidden ? "hidden" : ""}`}>These are the technologies I've been using</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 pt-10 gap-8">
                 <div className="text-light-gray border-2 rounded-2xl border-charcoal p-5">
                     <h3 className="font-bold">Front-end</h3>

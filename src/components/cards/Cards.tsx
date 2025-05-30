@@ -36,7 +36,7 @@ export default function Cards({experience, education}: {experience: Array<any>, 
                     </div>
                 ))}
             </div>
-        
+
         </>
     )
 }
