@@ -16,7 +16,7 @@ export default function Projects() {
                     <p className="mt-4 text-xl ">Hi again! I'm <strong>Raphael David</strong>, currently a Web Developer working in a PHP based agency.</p>
                     <p className="mt-4 text-xl leading-10">I am also progressing through a Bachelor of IT major in CS student at QUT, studying online while balancing a full-time job, so I'm slowly progressing through it. </p>
                     <div className="flex flex-col items-start gap-5 mt-8 sm:flex-row sm:items-center sm:gap-14">
-                        <Link href="/RaphaelDavids_Resume.pdf" download>
+                        <Link href="/Raphael_Resume.pdf" download>
                             <Button >Download CV</Button>
                         </Link>
                     </div>
