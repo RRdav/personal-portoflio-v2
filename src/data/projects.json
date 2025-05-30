@@ -4,6 +4,7 @@
     "data" : {
         "description": "Stick-on nails product website",
         "website": "https://jellicate.com.au/",
+        "status": "Down",
         "image": "/jellicate-text.png",
         "tags": ["nail salon", "beauty", "services"],
         "technologies": ["CSS", "JS", "PHP", "WordPress", "WooCommerce"],
@@ -15,18 +16,20 @@
     "data" : {
         "description": "Pregnancy and parenting product ratings website",
         "website": "https://prenatalratings.com/",
+        "status": "Live",
         "image": "/prenatal-ratings.png",
         "tags": ["parenting", "ratings", "reviews"],
         "technologies": ["CSS", "JS", "PHP", "Shopify"],
-        "responsibility": "Full stack website development, design handed off by client. Implementing Shopify theme and customizations."
+        "responsibility": "Frontend website development, design handed off by client. Assisted in implementing Shopify theme and customizations on the landing page."
     }
   },
   {
     "name": "SizeMatch",
     "data" : {
         "description": "Clothing size comparison tool",
-        "website": "#",
-        "image": "/sizematch.png",
+        "website": "https://size-match.vercel.app/",
+        "status": "In Development",
+        "image": "none",
         "tags": ["fashion", "clothing", "comparison"],
         "technologies": ["Tailwind", "React", "Redux"],
         "responsibility": "Personal project. Developed a web application to compare clothing sizes based on user input. Implemented responsive design using Tailwind CSS and state management with Redux."

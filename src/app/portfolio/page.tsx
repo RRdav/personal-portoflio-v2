@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar/Navbar";
-import projects from "../data/projects.json";
+import projects from "../../data/projects.json";
 import Image from "next/image";
+import Cards from "@/components/cards/Cards";
 
 export default function Projects() {
     return (
@@ -8,22 +9,7 @@ export default function Projects() {
             <Navbar />
             <div className="flex flex-col items-center justify-center pt-20">
                 <h1 className="mb-4 text-4xl font-bold">Projects</h1>
-                <div className="grid grid-cols-2">
-                    {projects.map((project, index) => (
-                        <div key={index}>
-                            <h2>{project.name}</h2>
-                            <figure>
-                                <Image 
-                                    src={project.data.image}
-                                    alt={project.name}
-                                    width={300}
-                                    height={300}
-                                    className="w-full h-auto object-cover"
-                                />
-                            </figure>
-                        </div>
-                    ))}
-                </div>
+                <Cards showEducation={false} showExperience={false} showProjects={true} experience={[]} education={[]} projects={projects} />
             </div>
         </main>
     );

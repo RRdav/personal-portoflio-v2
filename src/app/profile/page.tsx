@@ -5,6 +5,7 @@ import Technologies from "@/components/technologies/Technologies";
 import Cards from "@/components/cards/Cards";
 import experience from "@/data/experience.json"
 import education from "@/data/education.json";
+import Link from "next/link";
 
 export default function Projects() {
     return(
@@ -12,15 +13,17 @@ export default function Projects() {
         <Navbar />
             <div className="flex flex-col-reverse items-center justify-between w-full pt-20 lg:flex-row">
                 <div className="flex flex-col justify-center">
-                    <p className="mt-4 text-2xl ">Hi again! I'm <strong>Raphael David</strong>, currently a Web Developer working in a PHP based agency.</p>
-                    <p className="mt-4 text-2xl leading-10">I am also progressing through a Bachelor of IT major in CS student at QUT, studying online while balancing a full-time job, so I'm slowly progressing through it. </p>
+                    <p className="mt-4 text-xl ">Hi again! I'm <strong>Raphael David</strong>, currently a Web Developer working in a PHP based agency.</p>
+                    <p className="mt-4 text-xl leading-10">I am also progressing through a Bachelor of IT major in CS student at QUT, studying online while balancing a full-time job, so I'm slowly progressing through it. </p>
                     <div className="flex flex-col items-start gap-5 mt-8 sm:flex-row sm:items-center sm:gap-14">
-                        <Button>Download CV</Button>
+                        <Link href="/RaphaelDavids_Resume.pdf" download>
+                            <Button >Download CV</Button>
+                        </Link>
                     </div>
                 </div>
             </div>
-        <Technologies />
-        <Cards experience={experience} education={education}/>
+        <Technologies hidden={true}/>
+        <Cards experience={experience} education={education} projects={[]} showEducation={true} showExperience={true} showProjects={false} />
       </main>
     )
 }
