@@ -1,11 +1,21 @@
+'use client'
+
 import Image from "next/image";
 import Button from "../buttons/Button";
 import Link from "next/link";
+import React, { useEffect, useState } from 'react';
 
 export default function Hero() {
+    const [isSafari, setIsSafari] = useState(false);
+        useEffect(() => {
+        setIsSafari(/^((?!chrome|android).)*safari/i.test(navigator.userAgent));
+    }, []);
+
+    const shadowClass = isSafari ? "" : "drop-shadow-[0px_0px_240px_rgba(192,192,192,1)]";
+
     return(
         <div className="flex flex-col-reverse items-center justify-between w-full lg:flex-row ">
-            <div className="flex flex-col justify-center drop-shadow-[0px_0px_240px_rgba(192,192,192,1)] safari-drop-shadow-fix">
+            <div className={`flex flex-col justify-center ${shadowClass}`}>
                 <h1 className="text-6xl font-bold text-white">Hello, I'm RR!</h1>
                 <p className="mt-4 text-xl sm:text-2xl max-w-[800px] leading-10 text-gray">I'm a software developer with a passion for building web applications and just coding around. Playing and writing radical guitar riffs in my free time. </p>
                 <div className="flex flex-col items-start gap-5 mt-8 sm:flex-row sm:items-center sm:gap-14">
