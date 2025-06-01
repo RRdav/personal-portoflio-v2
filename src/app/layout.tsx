@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${ralewaySans.variable} ${nunitoSans.variable} antialiased theme-dark`}
+        className={`${ralewaySans.variable} ${nunitoSans.variable} antialiased bg-red`}
       >
         {children}
       </body>
