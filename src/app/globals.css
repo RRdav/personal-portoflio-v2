@@ -36,6 +36,14 @@
   }
 }
 
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .safari-drop-shadow-fix {
+      filter: none !important;
+    }
+  }
+}
+
 body {
   background: var(--color-black);
   color: var(--color-white);
