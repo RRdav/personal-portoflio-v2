@@ -3,6 +3,28 @@ import JobIcon from "../icons/job-icon";
 import StudyIcon from "../icons/study-icon";
 import Image from "next/image";
 
+//icons
+import CSSIcon from "../icons/css-icon";
+import JSicon from "../icons/js-icon";
+import PHPicon from "../icons/php-icon";
+import ReactIcon from "../icons/react-icon";
+import TailwindIcon from "../icons/tailwind-icon";
+import ReduxIcon from "../icons/redux-icon";
+import WordPressIcon from "../icons/wordpress-icon";
+import WooCommerceIcon from "../icons/woocommerce-icon";
+import ShopfiyIcon from "../icons/shopfiy-icon";
+
+const techIconsMap: Record<string, React.FC<{ className?: string }>> = {
+    "CSS": CSSIcon,
+    "JavaScript": JSicon,
+    "PHP": PHPicon,
+    "React": ReactIcon,
+    "Tailwind": TailwindIcon,
+    "Redux": ReduxIcon,
+    "WordPress": WordPressIcon,
+    "WooCommerce": WooCommerceIcon,
+    "Shopify": ShopfiyIcon,
+}
 
 
 export default function Cards({experience, education, projects, showExperience, showEducation, showProjects}:
@@ -78,6 +100,19 @@ export default function Cards({experience, education, projects, showExperience, 
                                     </p>
                                     <p className="mt-2 leading-7 text-white">{data.data.description}</p>
                                     <p className="mt-2 leading-7 text-gray">{data.data.responsibility}</p>
+                                    <div className="grid grid-cols-2 sm:flex sm:flex-row gap-10 pt-10">
+                                        {data.data.technologies.map((tech:string, index:number) => {
+                                            const Icon = techIconsMap[tech];
+                                            return(
+                                                <div key={index} className="flex flex-col items-center">
+                                                    <figure>
+                                                        {Icon && <Icon className="w-6 " />}
+                                                    </figure>
+                                                    <p><small>{tech}</small></p>
+                                                </div>
+                                            )
+                                        })}
+                                    </div>
 
                                 </div>
                             </div>

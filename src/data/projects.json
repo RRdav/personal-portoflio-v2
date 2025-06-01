@@ -7,7 +7,7 @@
         "status": "Down",
         "image": "/jellicate-text.png",
         "tags": ["nail salon", "beauty", "services"],
-        "technologies": ["CSS", "JS", "PHP", "WordPress", "WooCommerce"],
+        "technologies": ["CSS", "JavaScript", "PHP", "WordPress", "WooCommerce"],
         "responsibility": "Full stack website development, design handed off by client. Implementing WordPress theme and customizations. Integrated WooCommerce for e-commerce functionality."
     }
   },
@@ -19,7 +19,7 @@
         "status": "Live",
         "image": "/prenatal-ratings.png",
         "tags": ["parenting", "ratings", "reviews"],
-        "technologies": ["CSS", "JS", "PHP", "Shopify"],
+        "technologies": ["CSS", "JavaScript", "PHP", "Shopify"],
         "responsibility": "Frontend website development, design handed off by client. Assisted in implementing Shopify theme and customizations on the landing page."
     }
   },
