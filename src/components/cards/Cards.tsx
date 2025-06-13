@@ -13,6 +13,9 @@ import ReduxIcon from "../icons/redux-icon";
 import WordPressIcon from "../icons/wordpress-icon";
 import WooCommerceIcon from "../icons/woocommerce-icon";
 import ShopfiyIcon from "../icons/shopfiy-icon";
+import NextJSicon from "../icons/next-icon";
+import TypeScriptIcon from "../icons/typescript-icon";
+import SupabaseIcon from "../icons/supabase-icon";
 
 const techIconsMap: Record<string, React.FC<{ className?: string }>> = {
     "CSS": CSSIcon,
@@ -24,6 +27,9 @@ const techIconsMap: Record<string, React.FC<{ className?: string }>> = {
     "WordPress": WordPressIcon,
     "WooCommerce": WooCommerceIcon,
     "Shopify": ShopfiyIcon,
+    "NextJS" : NextJSicon,
+    "TypeScript" : TypeScriptIcon,
+    "Supabase" : SupabaseIcon,
 }
 
 

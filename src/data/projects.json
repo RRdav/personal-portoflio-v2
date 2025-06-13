@@ -31,8 +31,20 @@
         "status": "In Development",
         "image": "none",
         "tags": ["fashion", "clothing", "comparison"],
-        "technologies": ["Tailwind", "React", "Redux"],
+        "technologies": ["Tailwind", "React", "NextJS", "Redux"],
         "responsibility": "Personal project. Developed a web application to compare clothing sizes based on user input. Implemented responsive design using Tailwind CSS and state management with Redux."
+    }
+  },
+    {
+    "name": "Gacha App",
+    "data" : {
+        "description": "Full stack web application for Gacha game",
+        "website": "#",
+        "status": "In Development",
+        "image": "none",
+        "tags": ["fashion", "clothing", "comparison"],
+        "technologies": ["Tailwind", "NextJS", "Supabase", "TypeScript"],
+        "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js."
     }
   }
 ]

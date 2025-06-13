@@ -14,7 +14,7 @@ const nunitoSans = Nunito({
 
 export const metadata: Metadata = {
   title: "RD",
-  description: "Meow",
+  description: "Raphael David, personal portfolio website",
 };
 
 export default function RootLayout({
