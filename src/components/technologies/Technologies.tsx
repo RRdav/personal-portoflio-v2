@@ -7,6 +7,7 @@ import NextJSicon from "../icons/next-icon";
 import NodeIcon from "../icons/node-js-icon";
 import PHPicon from "../icons/php-icon";
 import Reacticon from "../icons/react-icon";
+import SupabaseIcon from "../icons/supabase-icon";
 import TailwindIcon from "../icons/tailwind-icon";
 import TypeScriptIcon from "../icons/typescript-icon";
 
@@ -54,6 +55,12 @@ export default function Technologies({hidden}: {hidden?: boolean}) {
                                 <MySQLIcon className="w-4 h-4 text-white" />
                             </span>MySQL
                         </li>
+                        <li className="flex gap-2 p-1">
+                            <span className="w-5 h-5 bg-charcoal rounded-full flex items-center justify-center">
+                                <SupabaseIcon className="w-4 h-4 text-white" />
+                            </span>MySQL
+                        </li>
+
                     </ul>
                 </div>
                 <div className="text-light-gray border-2 rounded-2xl border-charcoal p-5">
