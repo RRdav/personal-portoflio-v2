@@ -4,11 +4,11 @@
     "data" : {
         "description": "Full stack web application for Gacha game",
         "website": "https://rrs-gacha-app.vercel.app/",
-        "status": "Live",
+        "status": "Live | In Development",
         "image": "/gacha-sc.png",
         "tags": ["fashion", "clothing", "comparison"],
         "technologies": ["Tailwind", "NextJS", "Supabase", "TypeScript"],
-        "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js."
+        "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js. Database managed with Supabase. Currently in development, working MVP features. Working on the frontend at the moment."
     }
   },
   {
