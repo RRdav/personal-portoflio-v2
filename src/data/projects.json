@@ -11,6 +11,18 @@
         "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js. Database managed with Supabase. Currently in development, working MVP features. Working on the frontend at the moment."
     }
   },
+    {
+    "name": "Tattoomeister",
+    "data" : {
+        "description": "SaaS Tattoo artist discovery and booking management platform.",
+        "website": "https://rrs-gacha-app.vercel.app/",
+        "status": "In Development",
+        "image": "none",
+        "tags": ["fashion", "clothing", "comparison"],
+        "technologies": ["Tailwind", "NextJS", "TypeScript"],
+        "responsibility": "Team personal project. Developing a SaaS platform for tattoo artists to manage bookings and showcase their work. Implementing frontend using NextJS, Tailwind, and Shadcn UI components. Using clickUp for project management and collaboration. "
+    }
+  },
   {
     "name": "Jellicate Nailz",
     "data" : {
