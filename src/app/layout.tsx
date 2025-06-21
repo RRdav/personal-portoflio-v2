@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway, Nunito } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer/Footer";
 
 const ralewaySans = Raleway({
   variable: "--font-raleway",
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${ralewaySans.variable} ${nunitoSans.variable} antialiased`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
