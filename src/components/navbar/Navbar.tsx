@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="bg-dark rounded-full w-full sm:w-[unset]">
             <nav className="flex items-center justify-center p-3 sm:justify-between sm:space-x-12">
                 <ul className="flex gap-8">
-                    <li><Link href="/" className="font-medium transition-colors text-purple hover:text-white">RR</Link></li>
+                    <li><Link href="/" className="font-medium transition-colors text-purple hover:text-white">Home</Link></li>
                     <li><Link href="/profile" className="font-medium transition-colors text-purple hover:text-white">profile</Link></li>
                     <li><Link href="/portfolio" className="font-medium transition-colors text-purple hover:text-white">portfolio</Link></li>
                 </ul>

@@ -13,7 +13,7 @@ const nunitoSans = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "RD",
+  title: "Raphael David | Software Developer",
   description: "Raphael David, personal portfolio website",
 };
 
