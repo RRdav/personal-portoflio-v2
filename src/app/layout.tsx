@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Raleway, Nunito } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const ralewaySans = Raleway({
   variable: "--font-raleway",
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
