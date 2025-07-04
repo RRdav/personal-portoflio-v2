@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "Gacha App",
     "data" : {
         "description": "Full stack web application for Gacha game",
@@ -11,7 +11,19 @@
         "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js. Database managed with Supabase. Currently in development, working MVP features. Working on the frontend at the moment."
     }
   },
-    {
+  {
+    "name": "JSON Placeholder Generator",
+    "data" : {
+        "description": "NPM package dependency for generating JSON placeholder data",
+        "website": "https://www.npmjs.com/package/rrd-placeholder-generator",
+        "status": "Live",
+        "image": "/npm-sc.png",
+        "tags": ["fashion", "clothing", "comparison"],
+        "technologies": ["TypeScript"],
+        "responsibility": "Quick little handy NPM package I created to generate placeholder JSON data for testing purposes. It can be used in any Node.js project to quickly generate mock data for development and testing. Made using TypeScript and Commander.js for CLI interaction. Published on npm."
+    }
+  },
+  {
     "name": "Tattoomeister",
     "data" : {
         "description": "SaaS Tattoo artist discovery and booking management platform.",
