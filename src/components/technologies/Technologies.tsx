@@ -1,3 +1,4 @@
+import CsharpIcon from "../icons/chsarp-icon";
 import CSSIcon from "../icons/css-icon";
 import DockerIcon from "../icons/docker-icon";
 import GitIcon from "../icons/git-icon";
@@ -79,6 +80,11 @@ export default function Technologies({hidden}: {hidden?: boolean}) {
                             <span className="w-5 h-5 bg-charcoal rounded-full flex items-center justify-center">
                                 <PHPicon className="w-4 h-4 text-white" />
                             </span>PHP
+                        </li>
+                        <li className="flex gap-2 p-1">
+                            <span className="w-5 h-5 bg-charcoal rounded-full flex items-center justify-center">
+                                <CsharpIcon className="w-4 h-4 text-white" />
+                            </span>C#
                         </li>
                     </ul>
                 </div>

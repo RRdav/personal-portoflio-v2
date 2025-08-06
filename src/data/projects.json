@@ -4,11 +4,23 @@
     "data" : {
         "description": "Full stack web application for Gacha game",
         "website": "https://rrs-gacha-app.vercel.app/",
-        "status": "Live | In Development",
+        "status": "Down",
         "image": "/gacha-sc.png",
         "tags": ["fashion", "clothing", "comparison"],
         "technologies": ["Tailwind", "NextJS", "Supabase", "TypeScript"],
-        "responsibility": "Personal project. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js. Database managed with Supabase. Currently in development, working MVP features. Working on the frontend at the moment."
+        "responsibility": "Personal project, currently down due to expired database. Developing a web application to manage Gacha game items and characters. Implemented user authentication, API calls, database management, and responsive design using Tailwind CSS and Next.js. Database managed with Supabase. Currently in development, working MVP features. Working on the frontend at the moment."
+    }
+  },
+  {
+    "name": "VS Code Extension",
+    "data" : {
+        "description": "VS Code extension for in-house company use",
+        "website": "#",
+        "status": "Live",
+        "image": "none",
+        "tags": ["fashion", "clothing", "comparison"],
+        "technologies": ["TypeScript"],
+        "responsibility": "Extension made for in-house company use. Developed a VS Code extension to enhance developer productivity by providing quick access to company resources and tools. "
     }
   },
   {
